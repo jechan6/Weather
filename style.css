@@ -1,0 +1,82 @@
+#weather{
+  cursor: pointer;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+  background-color:grey;
+  
+  background-size:cover;
+  background-position:top;
+  background-repeat: no-repeat;
+}
+section {
+  padding-top:8%;
+}
+#icon, 
+#time, 
+#day, 
+#weather, 
+#date {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-size: 25px;
+  line-height:40px;
+}
+
+#city, #icon, #wind, #humid, #sunrise, #sunset{
+  font-family: 'Comfortaa', cursive;
+  font-size:25px;
+  padding-top: 3em;
+  vertical-align: middle;
+  color:white;
+  
+}
+
+#firstBox {
+  width: 15%;
+  height: 400px;
+  text-align:center;
+  float: left;
+  margin-left: 5%;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,.1);
+
+}
+#leftBox {
+  border: 1px solid black;
+  text-align: center;
+  top: 50%;
+  width: 15%;
+  float:left;
+  height: 400px;
+  margin-left:10%;
+
+  background-color: rgba(0,0,0,.1);
+  
+}
+#rightBox {
+  width: 15%;
+  height:400px;
+  float: left;
+  margin-left:10%;
+  text-align:center;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,.1);
+  margin-left:10;
+}
+
+#lastBox {
+  width: 15%;
+  height:400px;
+  float:left;
+  margin-left:10%;
+  text-align:center;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,.1);
+
+}
